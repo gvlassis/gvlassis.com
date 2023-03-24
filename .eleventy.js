@@ -1,8 +1,5 @@
 module.exports = function(eleventyConfig) {
-    // Return your Object options:
-    return {
-      dir: {
-        input: "src"
-      }
-    }
-  };
+    // Passthrough File Copy entries are relative to the root of your project and not your Eleventy input directory.
+    eleventyConfig.addPassthroughCopy("src/styles.css")
+    eleventyConfig.addPassthroughCopy("res/")
+    };

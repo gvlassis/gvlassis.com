@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Fira Sans';
+  src: local("Fira Sans Regular"), url('res/Fira_Sans-regular-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+00-FF;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: local("Fira Sans Italic"), url('res/Fira_Sans-italic-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: local("Fira Sans Bold"), url('res/Fira_Sans-bold-webfont.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: local("Fira Sans Bold Italic"), url('res/Fira_Sans-bolditalic-webfont.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+html {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 20px;
+    color: rgb(255,255,255);
+    background-color: rgb(26,26,26);
+}
