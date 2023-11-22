@@ -1,0 +1,87 @@
+@import "light.css" (prefers-color-scheme: light);
+@import "dark.css" (prefers-color-scheme: dark);
+
+@font-face{
+	font-family: 'FiraGO';
+	src: local("FiraGO Regular"), "FiraGO-Regular.subset.woff2" format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face{
+	font-family: 'FiraGO';
+	src: local("FiraGO Italic"), "FiraGO-Italic.subset.woff2" format("woff2");
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face{
+	font-family: 'FiraGO';
+	src: local("FiraGO Bold"), "FiraGO-Heavy.subset.woff2" format("woff2");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face{
+	font-family: 'FiraGO';
+	src: local("FiraGO Bold Italic"), "FiraGO-HeavyItalic.subset.woff2" format("woff2");
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+html{
+	font-family: "FiraGO", sans-serif;
+	background-color: var(--surface);
+}
+
+header{
+	text-align: center;
+	font-weight: bold;
+	font-size: x-large;
+	font-style: italic;
+	color: var(--primary);
+}
+
+img{
+	max-height: 30vh;
+	max-width: 95vw;
+	margin: auto;
+	display: block;
+}
+
+p{
+	text-align: center;
+	font-size: large;
+	color: var(--onSurface);
+}
+
+div{
+	font-size: medium;
+	color: var(--onSurface);
+	max-width: 30em;
+	background-color: var(--surfaceContainerHigh);
+	padding: 0.5em;
+	border-radius: 0.5em;
+	margin: 0.5em auto
+}
+
+footer{
+	text-align: center;
+	font-size: small;
+	font-style: italic;
+	color: var(--onSurface);
+}
+
+header a{
+	color: var(--primary);
+	text-decoration: none;
+}
+
+p a, div a, footer a{
+	color: var(--tertiary);
+	text-decoration: wavy underline;
+}
