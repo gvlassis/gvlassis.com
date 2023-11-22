@@ -3,7 +3,7 @@
 
 @font-face{
 	font-family: 'FiraGO';
-	src: local("FiraGO Regular"), "FiraGO-Regular.subset.woff2" format("woff2");
+	src: local("FiraGO Regular"), url("FiraGO-Regular.subset.woff2") format("woff2");
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -11,7 +11,7 @@
 
 @font-face{
 	font-family: 'FiraGO';
-	src: local("FiraGO Italic"), "FiraGO-Italic.subset.woff2" format("woff2");
+	src: local("FiraGO Italic"), url("FiraGO-Italic.subset.woff2") format("woff2");
 	font-weight: normal;
 	font-style: italic;
 	font-display: swap;
@@ -19,7 +19,7 @@
 
 @font-face{
 	font-family: 'FiraGO';
-	src: local("FiraGO Bold"), "FiraGO-Heavy.subset.woff2" format("woff2");
+	src: local("FiraGO Bold"), url("FiraGO-Heavy.subset.woff2") format("woff2");
 	font-weight: bold;
 	font-style: normal;
 	font-display: swap;
@@ -27,7 +27,7 @@
 
 @font-face{
 	font-family: 'FiraGO';
-	src: local("FiraGO Bold Italic"), "FiraGO-HeavyItalic.subset.woff2" format("woff2");
+	src: local("FiraGO Bold Italic"), url("FiraGO-HeavyItalic.subset.woff2") format("woff2");
 	font-weight: bold;
 	font-style: italic;
 	font-display: swap;
