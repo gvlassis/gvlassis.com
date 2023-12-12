@@ -1,5 +1,119 @@
-@import "light.css" (prefers-color-scheme: light);
-@import "dark.css" (prefers-color-scheme: dark);
+@media (prefers-color-scheme: light) {
+	:root{
+		--primary: #2e5da8;
+		--primaryContainer: #d6e2ff;
+		--onPrimary: #ffffff;
+		--onPrimaryContainer: #001a42;
+		--inversePrimary: #abc7ff;
+		--secondary: #565e71;
+		--secondaryContainer: #dae2f9;
+		--onSecondary: #ffffff;
+		--onSecondaryContainer: #131c2c;
+		--tertiary: #705573;
+		--tertiaryContainer: #ffffff;
+		--onTertiary: #fad7fc;
+		--onTertiaryContainer: #29132e;
+		--surface: #faf9ff;
+		--surfaceDim: #d9d9e0;
+		--surfaceBright: #faf9ff;
+		--surfaceContainerLowest: #ffffff;
+		--surfaceContainerLow: #f3f3fa;
+		--surfaceContainer: #ededf4;
+		--surfaceContainerHigh: #e7e7ee;
+		--surfaceContainerHighest: #e2e2e9;
+		--surfaceVariant: #e1e2ec;
+		--onSurface: #1b1b1b;
+		--onSurfaceVariant: #44474f;
+		--inverseSurface: #2e3035;
+		--inverseOnSurface: #f0f0f7;
+		--background: #faf9ff;
+		--onBackground: #1b1b1b;
+		--error: #ba1b1b;
+		--errorContainer: #ffffff;
+		--onError: #ffdad4;
+		--onErrorContainer: #410001;
+		--outline: #74777f;
+		--outlineVariant: #c4c6d0;
+		--shadow: #000000;
+		--surfaceTint: #2e5da8;
+		--scrim: #000000;
+
+		--black: #020306;
+		--red: #cc2925;
+		--green: #005f31;
+		--yellow: #5b7312;
+		--blue: #2753d2;
+		--magenta: #7400a1;
+		--cyan: #007685;
+		--white: #dcdce3;
+		--bright_black: #696a70;
+		--bright_red: #ff5449;
+		--bright_green: #00894a;
+		--bright_yellow: #748d2d;
+		--bright_blue: #466dec;
+		--bright_magenta: #a32fd4;
+		--bright_cyan: #0091a3;
+		--bright_white: #ffffff;
+	}
+}
+@media (prefers-color-scheme: dark){
+	:root{
+		--primary: #abc7ff;
+		--primaryContainer: #09458e;
+		--onPrimary: #002e69;
+		--onPrimaryContainer: #d6e2ff;
+		--inversePrimary: #2e5da8;
+		--secondary: #bec6dc;
+		--secondaryContainer: #3f4759;
+		--onSecondary: #283041;
+		--onSecondaryContainer: #dae2f9;
+		--tertiary: #debce0;
+		--tertiaryContainer: #3f2843;
+		--onTertiary: #573e5b;
+		--onTertiaryContainer: #fad7fc;
+		--surface: #111318;
+		--surfaceDim: #111318;
+		--surfaceBright: #37393f;
+		--surfaceContainerLowest: #0c0e13;
+		--surfaceContainerLow: #1b1b1b;
+		--surfaceContainer: #1e1f24;
+		--surfaceContainerHigh: #282a2f;
+		--surfaceContainerHighest: #33353a;
+		--surfaceVariant: #44474f;
+		--onSurface: #e2e2e9;
+		--onSurfaceVariant: #c4c6d0;
+		--inverseSurface: #e2e2e9;
+		--inverseOnSurface: #2e3035;
+		--background: #111318;
+		--onBackground: #e2e2e9;
+		--error: #ffb4a9;
+		--errorContainer: #680003;
+		--onError: #930006;
+		--onErrorContainer: #ffdad4;
+		--outline: #8e9099;
+		--outlineVariant: #44474f;
+		--shadow: #000000;
+		--surfaceTint: #abc7ff;
+		--scrim: #000000;
+
+		--black: #000000;
+		--red: #dd3730;
+		--green: #00c46d;
+		--yellow: #b0cc64;
+		--blue: #466dec;
+		--magenta: #b13fe1;
+		--cyan: #00aec2;
+		--white: #c6c6cd;
+		--bright_black: #696a70;
+		--bright_red: #ff7163;
+		--bright_green: #00f38a;
+		--bright_yellow: #d1ee82;
+		--bright_blue: #8ea7ff;
+		--bright_magenta: #e089ff;
+		--bright_cyan: #61e6fb;
+		--bright_white: #fdfbff;
+	}
+}
 
 @font-face{
 	font-family: 'FiraGO';
