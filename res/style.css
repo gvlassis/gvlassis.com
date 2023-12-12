@@ -44,21 +44,20 @@ header{
 	font-size: xx-large;
 	font-style: italic;
 	color: var(--primary);
-	margin: 15px
+	margin: 0.8rem
 }
 
 img{
-	max-height: 30vh;
-	max-width: 95vw;
 	display: block;
-	margin: 15px auto;
+	height: 30vh;
+	margin: 0.8rem auto;
 }
 
 p{
 	text-align: center;
 	font-size: x-large;
 	color: var(--onSurface);
-	margin: 15px;
+	margin: 0.8rem;
 }
 
 div{
@@ -68,7 +67,7 @@ div{
 	background-color: var(--surfaceContainerHigh);
 	padding: 0.75em;
 	border-radius: 1em;
-	margin: 15px auto
+	margin: 0.8rem auto
 }
 
 footer{
@@ -76,7 +75,7 @@ footer{
 	font-size: medium;
 	font-style: italic;
 	color: var(--onSurface);
-	margin: 15px;
+	margin: 0.8rem;
 }
 
 header a{
